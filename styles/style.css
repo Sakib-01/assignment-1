@@ -95,6 +95,27 @@
     font-family: Azeret Mono;
     font-weight: 600;    
 } 
+/* body h4 and p tag style */
+
+body h4{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin: 24px auto;    
+}
+
+body p{
+    width: 852px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px auto 48px;
+    opacity: 0.7; 
+}
 
 /* Why Web Development section style */
 
@@ -168,8 +189,9 @@
     text-align: left; 
     margin-bottom: 16px;   
 }
-.part-text p{
+.part-text  #parts-p{
     color: rgb(13, 19, 33);
+    width: 468px;
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
@@ -198,24 +220,7 @@
     justify-content: center;
     align-items: center;
 }
-.inspration-content h4{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 32px;
-    font-weight: 800;
-    text-align: center;
-    margin: 24px auto;
-}
-.inspration-content p{
-    width: 852px;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
-    margin: 0px auto 48px;
-    opacity: 0.7;    
-}
+
 .video-container{
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
@@ -231,3 +236,77 @@
     height: 550px;
     border-radius: 16px;
 }
+/* Target section style */
+
+.target-content{
+    border: 2px solid red;    
+    width: 1140px;
+    height: 520px; 
+    margin: 160px auto ;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.target-container{
+    /* border: 2px solid red;     */
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+}
+.target-item{
+    /* border: 2px solid red;  */
+    width: 32%;
+    padding: 40px;
+
+}
+.target-item img{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+
+}
+.target-item h6{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+
+}
+.target-item #target-p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    width: 284px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    opacity: 0.7;
+}
+.target-item .targer-a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+#item-1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+#item-2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);    
+}
+#item-3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+/* Next Target section style */
