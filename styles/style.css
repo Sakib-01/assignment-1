@@ -241,7 +241,7 @@ body p{
 .target-content{
     border: 2px solid red;    
     width: 1140px;
-    height: 520px; 
+    height: 540px; 
     margin: 160px auto ;   
     display: flex;
     flex-direction: column;
@@ -253,8 +253,8 @@ body p{
     /* border: 2px solid red;     */
     width: 1140px;
     display: flex;
-    justify-content: space-between;    
-    align-items: center;
+    justify-content: space-between; 
+    align-items: flex-end;
 }
 .target-item{
     /* border: 2px solid red;  */
@@ -274,6 +274,7 @@ body p{
     font-size: 24px;
     font-weight: 800;
     text-align: left;
+    margin-bottom: 16px;
 
 }
 .target-item #target-p{
@@ -310,3 +311,10 @@ body p{
 }
 
 /* Next Target section style */
+
+.next-target-container{
+    border: 2px solid red; 
+    width: 1140px;
+    height: 866px;   
+    margin: 160px auto; 
+}
