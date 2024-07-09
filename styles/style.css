@@ -214,7 +214,7 @@ body p{
 /* Inspiration section style */
 
 .inspration-content{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 1140px;
     margin: 64px auto 0px;    
     display: flex;
