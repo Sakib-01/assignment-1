@@ -1,0 +1,97 @@
+/* border: 2px solid red */
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.name-container{
+    border: 2 px solid red;
+    width: 1140px;
+    margin: 0px auto;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding-top: 20px;
+    margin-top: 22px;
+    margin-bottom: 32px;
+}
+.name h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+}
+.name button{
+    width: 228px;
+    height: 58px;    
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;    
+    font-size: 20px;    
+    font-weight: 600;    
+}
+/* ------banner style---------- */
+
+.banner-container{
+    border: 2px solid red;
+    height: 652px;
+    background-image: url("../assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-content img{
+    width: 240.28px;
+    height: 240px;
+    margin-top: 26px;
+    margin-bottom: 32px;
+    border: 2px solid red;
+}
+.banner-content h1{
+    border: 2px solid red;    
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 26px;
+}
+.banner-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.banner-content .banner-btn{
+    width: 208px;
+    height: 66px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-weight: 600;    
+} 
