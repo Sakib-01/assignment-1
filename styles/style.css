@@ -9,7 +9,7 @@
 }
 
 .name-container{
-    border: 2 px solid red;
+    /* border: 2 px solid red; */
     width: 1140px;
     margin: 0px auto;
 }
@@ -43,7 +43,7 @@
 /* ------banner style---------- */
 
 .banner-container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 652px;
     background-image: url("../assets/Hero-bg.png");
     background-repeat: no-repeat;
@@ -63,10 +63,10 @@
     height: 240px;
     margin-top: 26px;
     margin-bottom: 32px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .banner-content h1{
-    border: 2px solid red;    
+    /* border: 2px solid red;     */
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 38px;
@@ -86,14 +86,17 @@
     text-align: center;
     margin-bottom: 32px;
 }
-.banner-content .banner-btn{
+.banner-content .button{
     width: 208px;
     height: 66px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
-    font-weight: 600;    
+    font-weight: 600;  
+    text-align: center;
+    text-decoration: none;  
+    padding: 22px;
 } 
 /* body h4 and p tag style */
 
@@ -120,7 +123,7 @@ body p{
 /* Why Web Development section style */
 
 .web-development{
-    border: 2px solid red;
+/
     width: 1140px;
     height: 1295px;
     margin: 70px auto 0px;
@@ -236,10 +239,12 @@ body p{
     height: 550px;
     border-radius: 16px;
 }
+
+
 /* Target section style */
 
 .target-content{
-    border: 2px solid red;    
+    /* border: 2px solid red;     */
     width: 1140px;
     height: 540px; 
     margin: 160px auto ;   
@@ -387,7 +392,7 @@ text-decoration-line: underline;
 /* support section */
 
 .support-content{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 1140px;
     height: 313px;
     margin: 100px auto;
@@ -426,7 +431,6 @@ text-decoration-line: underline;
 .support-button input{
     width: 548px;
     height: 57px;
-    box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     background: rgb(255, 255, 255); 
@@ -443,6 +447,8 @@ text-decoration-line: underline;
     font-weight: 600;
     text-align: center;   
 }
+
+/*-----------footer style-------------*/
 
 footer{
     width: 100%;
